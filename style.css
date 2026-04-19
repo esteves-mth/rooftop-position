@@ -113,7 +113,7 @@ header li{
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
-    background-image: url(/img/header-bg.png);
+    background-image: url("/img/header-bg.png");
     height: 78vh;
     width: 100%;
     background-position: center;
@@ -146,7 +146,7 @@ header li{
 .viewmleft {
     background-repeat: no-repeat;
     background-size: cover;
-    background: url(img/view-menu-bg.png);
+    background: url("/img/view-menu-bg.png");
     width: 92px;
     height: 180px;
     left: 0;
@@ -157,7 +157,7 @@ header li{
 .bookatb {
     background-repeat: no-repeat;
     background-size: cover;
-    background: url(img/book-table-bg.png);
+    background: url("/img/book-table-bg.png");
     width: 92px;
     height: 180px;
     position: fixed;
