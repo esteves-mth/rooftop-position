@@ -1,0 +1,334 @@
+body {
+     margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    position: sticky;
+    vertical-align: middle;
+}
+
+.about {
+    color: #ad9966;
+}
+
+header img {
+    margin-left: 10%;
+    margin-right: 10%;
+    position: sticky;
+    width: 70px;
+}
+
+header a:hover{
+    color: #ad9966;
+}
+
+header ul {
+    padding: 0;
+    text-align: center;
+    position: sticky;
+}
+
+header li{
+    display: inline-block;
+    width: 4%;
+    padding-bottom: 20px;
+    position: sticky;
+    bottom: 35px;
+    margin-right: 5%;
+}
+
+.drop::after {
+    content: "▾";
+}
+
+.drop {
+    position: relative;
+}
+
+.dd {
+    position: absolute;
+    background-color: #ffffff;
+    left: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 0;
+    width: 140px;
+    line-height: 35px;
+    transition: 0.3s ease;
+}
+
+li:hover .dd {
+    height: auto;
+    padding: 5px 0;
+}
+
+
+.dd li {
+    display: block;
+}
+
+.dd li a {
+    display: block;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: black;
+    white-space: nowrap;
+}
+
+.dd li a:hover {
+    background-color: #eee;
+}
+
+.hbg{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("/img/banner-bg.png");
+    height: 40vh;
+    background-position: center;
+}
+
+.hbg h1 {
+    font-weight: 400;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 48px;
+    margin: 0;
+    color: #ffffff;
+}
+
+.hbg hr{
+    width: 26%;
+}
+
+.hbg p{
+    text-align: center;
+    color: #ffffff;
+}
+
+.divabout {
+    margin-top: 10vh;
+    display: flex;
+}
+
+.imgabout {
+    margin-left: 5%;
+    display: flex;
+}
+
+.textabout{
+   width: 80%;
+   flex-direction: column;
+   position: relative;
+   margin-left: 10%;
+   top: 10vh;
+}
+
+.htextabout{
+    font-size: 56px;
+    line-height: 72px;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    width: 30%;
+}
+
+.textabout p {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: rgb(119, 119, 119);
+    width: 70%;
+}
+
+.chef {
+    margin-top: 50vh;
+    width: 100%;
+    display: flex;
+    position: relative;
+    left: 7%;
+}
+
+.cheftext {
+    width: 70%;
+}
+
+.cheftext h2{
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    font-weight: 400;
+    width: 20%;
+}
+
+.cheftext p {
+    width: 70%;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    margin-bottom: 5vh;
+    color: rgb(119, 119, 119);
+    line-height: 30px;
+}
+
+.cchef{
+    position: relative;
+    right: 10%;
+    bottom: 20vh;
+}
+
+footer {
+    display: block;
+    background-color: #04091e;
+    height: 32vh;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+footer div {
+    display: inline-block;
+    margin-right: 5%;
+    color: #ffffff;
+}
+
+footer h3 {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    padding-bottom: 5%;
+}
+
+footer p {
+    font-family: "Roboto", sans-serif;
+    color: #777777;
+    font-size: 15px;
+    transition: 0.3s ease;
+}
+
+footer p:hover{
+    color: #ad9966;
+}
+
+footer button{
+    width: 4%;
+    height: 5vh;
+    position: relative;
+    background-color: #ad9966;
+    bottom: 5.2vh;
+    left: 4.5%;
+}
+
+footer button::after{
+    position: relative;
+    content: "→";
+    color: white;
+}
+
+footer input{
+    background-color: #04091e;
+    width: 160%;
+    height: 4vh;
+    color: white;
+}
+
+#claudio {
+    color: #777777;
+    position: relative;
+    bottom: 4.9vh;
+    left: 7%;
+}
+
+#copyright {
+    margin-top: 6vh;
+    display: inline-block;
+}
+
+#copyright span{
+    color: #ad9966;
+}
+
+.rdsc {
+    display: inline-block;
+    position: relative;
+    margin-left: 30%;
+}
+
+.face{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-color: #363c5594;
+}
+
+.face::after{
+    content: url("/img/facebook-app-symbol\ \(1\).png");
+}
+
+.x{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-color: #363c5594;
+}
+
+.x::after{
+    content: url("/img/twitter\ \(1\).png");
+}
+
+.int{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-color: #363c5594;
+}
+
+.int::after{
+    content: url("/img/globe\ \(1\).png");
+}
+
+.be{
+    transform: scale(1.1);
+    left: 90%;
+    bottom: 3vh;
+    position: relative;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-color: #363c5594;
+}
+
+.be::after{
+    content: url("/img/social\ \(1\).png");
+}
+
+.face:hover{
+    background-color: #ad9966;
+    content: url("/img/facebook-app-symbol\ \(2\).png");
+}
+
+.x:hover{
+    background-color: #ad9966;
+    content: url("/img/twitter\ \(2\).png");
+}
+
+.int:hover{
+    background-color: #ad9966;
+    content: url("/img/globe\ \(2\).png");
+}
+
+.be:hover{
+    background-color: #ad9966;
+    content: url("/img/social\ \(2\).png");
+}
