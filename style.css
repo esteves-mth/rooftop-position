@@ -113,7 +113,7 @@ header li{
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
-    background-image: url("/img/header-bg.png");
+    background-image: url("img/header-bg.png");
     height: 78vh;
     width: 100%;
     background-position: center;
@@ -146,7 +146,7 @@ header li{
 .viewmleft {
     background-repeat: no-repeat;
     background-size: cover;
-    background: url("/img/view-menu-bg.png");
+    background: url("img/view-menu-bg.png");
     width: 92px;
     height: 180px;
     left: 0;
@@ -157,7 +157,7 @@ header li{
 .bookatb {
     background-repeat: no-repeat;
     background-size: cover;
-    background: url("/img/book-table-bg.png");
+    background: url("img/book-table-bg.png");
     width: 92px;
     height: 180px;
     position: fixed;
@@ -484,7 +484,7 @@ footer input{
 }
 
 .face::after{
-    content: url("/img/facebook-app-symbol\ \(1\).png");
+    content: url("img/facebook-app-symbol\ \(1\).png");
 }
 
 .x{
@@ -495,7 +495,7 @@ footer input{
 }
 
 .x::after{
-    content: url("/img/twitter\ \(1\).png");
+    content: url("img/twitter\ \(1\).png");
 }
 
 .int{
@@ -506,7 +506,7 @@ footer input{
 }
 
 .int::after{
-    content: url("/img/globe\ \(1\).png");
+    content: url("img/globe\ \(1\).png");
 }
 
 .be{
@@ -521,22 +521,22 @@ footer input{
 }
 
 .be::after{
-    content: url("/img/social\ \(1\).png");
+    content: url("img/social\ \(1\).png");
 }
 
 .face:hover{
     background-color: #ad9966;
-    content: url("/img/facebook-app-symbol\ \(2\).png");
+    content: url("img/facebook-app-symbol\ \(2\).png");
 }
 
 .x:hover{
     background-color: #ad9966;
-    content: url("/img/twitter\ \(2\).png");
+    content: url("img/twitter\ \(2\).png");
 }
 
 .int:hover{
     background-color: #ad9966;
-    content: url("/img/globe\ \(2\).png");
+    content: url("img/globe\ \(2\).png");
 }
 
 .be:hover{
